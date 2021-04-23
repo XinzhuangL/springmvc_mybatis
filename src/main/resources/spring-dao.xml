@@ -44,4 +44,5 @@
         <property name="basePackage" value="com.lixinzhuang.dao"/>
     </bean>
 
+
 </beans>
