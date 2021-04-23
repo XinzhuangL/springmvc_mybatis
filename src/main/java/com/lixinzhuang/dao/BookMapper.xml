@@ -2,8 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC ".//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
 <mapper namespace="com.lixinzhuang.dao.BookMapper">
-    <insert id="addBook" parameterMap="Book">
+    <insert id="addBook" parameterType="Book">
         insert into ssmbuild.book(bookName, bookCounts, detail)
         values(#{bookName},#{bookCounts},#{detail});
     </insert>

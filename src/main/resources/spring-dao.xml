@@ -25,7 +25,8 @@
         <!--连接池的私有属性-->
         <property name="maxPoolSize" value="30"/>
         <property name="minPoolSize" value="10"/>
-        <property name="autoCommitOnClose" value="10000"/>
+        <property name="autoCommitOnClose" value="false"/>
+        <property name="checkoutTimeout" value="10000"/>
         <property name="acquireRetryAttempts" value="2"/>
     </bean>
     <!--sqlSessionFactory-->
